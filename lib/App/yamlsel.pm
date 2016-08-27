@@ -24,7 +24,7 @@ sub _decode_yaml {
 
 $SPEC{yamlsel} = {
     v => 1.1,
-    summary => 'Select YAML elements using CSS selector syntax',
+    summary => 'Select YAML elements using CSS-like selector syntax',
     args => {
         %App::CSelUtils::foosel_common_args,
         %App::CSelUtils::foosel_struct_action_args,
