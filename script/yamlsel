@@ -18,7 +18,7 @@ Perinci::CmdLine::Any->new(
 
 =head1 SYNOPSIS
 
- % yamlsel "Scalar[value > 3]" file.yaml
+ % yamlsel file.yaml "Scalar[value > 3]"
 
 
 =head1 SEE ALSO
