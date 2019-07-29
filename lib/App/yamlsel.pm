@@ -56,7 +56,7 @@ sub yamlsel {
 
             for my $action (@{ $args->{node_actions} }) {
                 if ($action eq 'print' || $action eq 'print_as_string') {
-                    $action = 'print_func_or_meth:meth:value.func:App::yamlsel::_encode_yaml',
+                    $action = 'print_func_or_meth:meth:value.func:App::yamlsel::_encode_yaml';
                 } elsif ($action eq 'dump') {
                     $action = 'dump:value';
                 }
