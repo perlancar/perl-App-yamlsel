@@ -1,3 +1,9 @@
+0.006   2019-08-01  Released-By: PERLANCAR; Urgency: high
+
+	- [dist][bug] Fix typo in dependency of Data::CSel::WrapStruct 0.04
+	  -> 0.004 which prevented us from being installable.
+
+
 0.005   2019-07-30  Released-By: PERLANCAR; Urgency: low
 
 	- [ux] Simplify CLI scripts by disabling read_config & read_env.
