@@ -2,3 +2,4 @@ App-yamlsel-*
 .build
 *~
 nytprof*
+.DS_Store
